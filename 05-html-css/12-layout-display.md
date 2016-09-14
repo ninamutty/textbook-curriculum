@@ -2,8 +2,8 @@
 
 
 ## Learning Goals 📚
--
--
+- Can identify element's default display values
+- Can change an element's display value appropriately
 
 ## Display Property
 The display property has a long list of potential values. There are three values we are going to focus on while we learn about layout: inline, inline-block & block.
@@ -26,12 +26,14 @@ The display property has a long list of potential values. There are three values
 
 To have elements with default block displays to be inline with each other, it's display property and width need to be modified.
 
-Use this [Codepen](http://codepen.io/jamazing/pen/rrxLZo) example to experiment with the element's display values. 
+Use this [Codepen](http://codepen.io/jamazing/pen/rrxLZo) example to experiment with the element's display values.
 
 ## Vocab ✅
+- Block
+- Inline-block
+- Inline
+
+<!-- ## 🔑 Key Takeaway
 
 
-## 🔑 Key Takeaway
-
-
-### Additional Resources
+### Additional Resources -->
