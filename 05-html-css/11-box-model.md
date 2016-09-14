@@ -1,9 +1,9 @@
 # Box Model
 
-
 ## Learning Goals 📚
--
--
+- Know how elements are represented by the box model
+- How to change an element's box model
+- How to identify an element's box style using DevTools
 
 ## What is the Box Model
 
@@ -67,7 +67,7 @@ When using a percentage, that element will always take up that percent of the sc
 
 **Note** 100% *is* the width of the screen you are using. If any elements inline with each other have widths that add up to be more that 100% , elements may move below the other elements. Example: If had 3 elements I wanted to be inline with each other, but each had a width of 40%, one element would end up below.
 
-**em or rem**
+**Example: em or rem**
 Ems and Rems are used for font-sizing
 
 Both em and rem are flexible, scalable units which are translated by the browser into pixel values, depending on the font size settings in your design. If you use a value of 1em or 1rem, it could translate in the browser as anything from 16px to 160px or any other value.
