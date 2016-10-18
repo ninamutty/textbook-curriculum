@@ -42,6 +42,7 @@ Then you can test your session controller like this:
       login_a_user
       assert_response :redirect
       assert_redirected_to root_path
+      assert_equal session[:user_id], User.find_by(uid: OmniAuth.config.mock_auth[:github][:uid], provider: 'github').id
   	end
   end
   
@@ -54,6 +55,10 @@ Then you can test your session controller like this:
       assert_response :redirect
       assert_redirected_to root_path
     end
+  end
+  
+  test "if not logged in via git, user can't log in" do
+    
   end
 ```
 
