@@ -6,6 +6,7 @@ Each problem stands alone. Variables from previous problems do not exist.
 ## Problem Set
 1.
 ```ruby
+# Ruby
 person_age = 55
 ada_age = 2
 
@@ -19,6 +20,7 @@ end
 ```
 
 ```javascript
+// Javascript
 var person_age = 55;
 var ada_age = 2;
 
@@ -33,6 +35,7 @@ if (person_age < ada_age) {
 
 2.
 ```ruby
+# Ruby
 pet = "cat"
 food = "ice cream"
 
@@ -53,6 +56,7 @@ end
 
 3.
 ```ruby
+# Ruby
 x = 7
 y = 7
 
@@ -65,6 +69,22 @@ if x > y || x == y
 else
    print "y is bigger"
 end
+```
+
+```javascript
+// Javascript
+var x = 7;
+var y = 7;
+
+if (x >= y) {
+  if (x > y) {
+    console.log("x is bigger")
+  } else {
+    console.log("x = y")
+  };
+} else {
+  console.log("y is bigger")
+};
 ```
 
 4.
